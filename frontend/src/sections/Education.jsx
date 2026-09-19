@@ -62,10 +62,6 @@ function Education() {
       className="border-t border-white/5 bg-slate-950 py-24 sm:py-28"
     >
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
-        {/* =========================
-            HEADER
-        ========================== */}
-
         <motion.div
           initial={{
             opacity: 0,
@@ -99,13 +95,7 @@ function Education() {
           </p>
         </motion.div>
 
-        {/* =========================
-            TIMELINE
-        ========================== */}
-
         <div className="relative">
-          {/* Timeline Line */}
-
           <div className="absolute left-[24px] top-5 hidden h-[calc(100%-40px)] w-px bg-gradient-to-b from-blue-500/50 via-purple-500/30 to-transparent md:block" />
 
           <div className="space-y-7">

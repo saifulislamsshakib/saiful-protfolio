@@ -50,7 +50,6 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Public Portfolio */}
         <Route path="/" element={<Portfolio />} />
 
         {/* Admin Login */}

@@ -136,7 +136,6 @@ const AdminDashboard = () => {
     }
   };
 
-  // Logout
   const handleLogout = () => {
     localStorage.removeItem("adminToken");
     localStorage.removeItem("adminInfo");

@@ -76,10 +76,6 @@ function Contact() {
       className="border-t border-white/5 bg-slate-900/20 py-24 sm:py-28 lg:py-32"
     >
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
-        {/* =========================
-            SECTION HEADER
-        ========================== */}
-
         <motion.div
           initial={{
             opacity: 0,
@@ -114,15 +110,7 @@ function Contact() {
           </p>
         </motion.div>
 
-        {/* =========================
-            MAIN CONTACT GRID
-        ========================== */}
-
         <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
-          {/* =========================
-              CONTACT INFORMATION
-          ========================== */}
-
           <motion.div
             initial={{
               opacity: 0,
@@ -146,10 +134,6 @@ function Contact() {
               I'm open to discussing web development opportunities, full-stack
               projects, internships and collaborations.
             </p>
-
-            {/* =========================
-                EMAIL
-            ========================== */}
 
             <div className="mt-8 space-y-4">
               <a
@@ -176,10 +160,6 @@ function Contact() {
                 />
               </a>
 
-              {/* =========================
-                  LOCATION
-              ========================== */}
-
               <div className="flex items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.02] p-4">
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-blue-500/20 bg-blue-500/10 text-blue-400">
                   <MapPin size={19} />
@@ -197,18 +177,12 @@ function Contact() {
               </div>
             </div>
 
-            {/* =========================
-                SOCIAL LINKS
-            ========================== */}
-
             <div className="mt-8 border-t border-white/10 pt-7">
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-600">
                 Connect
               </p>
 
               <div className="mt-4 flex gap-3">
-                {/* GitHub */}
-
                 <a
                   href="https://github.com/saifulislamsshakib"
                   target="_blank"
@@ -218,8 +192,6 @@ function Contact() {
                 >
                   <FaGithub size={20} />
                 </a>
-
-                {/* LinkedIn */}
 
                 <a
                   href="https://www.linkedin.com/in/saiful-islam-shakib-0ba803293/"
@@ -233,10 +205,6 @@ function Contact() {
               </div>
             </div>
           </motion.div>
-
-          {/* =========================
-              CONTACT FORM
-          ========================== */}
 
           <motion.div
             initial={{

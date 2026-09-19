@@ -80,10 +80,6 @@ function Navbar() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/90 backdrop-blur-xl">
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
-          {/* =========================
-              LOGO
-          ========================== */}
-
           <button
             type="button"
             onClick={() => handleNavigation("home")}
@@ -92,10 +88,6 @@ function Navbar() {
             SAIFUL
             <span className="text-blue-500">.</span>
           </button>
-
-          {/* =========================
-              DESKTOP NAVIGATION
-          ========================== */}
 
           <nav className="hidden items-center gap-7 lg:flex">
             {navItems.map((item) => {
@@ -123,10 +115,6 @@ function Navbar() {
             })}
           </nav>
 
-          {/* =========================
-              RESUME BUTTON
-          ========================== */}
-
           <a
             href="/resume.pdf"
             download="Saiful-Islam-Resume.pdf"
@@ -135,10 +123,6 @@ function Navbar() {
             <Download size={17} />
             Download Resume
           </a>
-
-          {/* =========================
-              MOBILE MENU BUTTON
-          ========================== */}
 
           <button
             type="button"
@@ -150,10 +134,6 @@ function Navbar() {
             {isOpen ? <X size={21} /> : <Menu size={21} />}
           </button>
         </div>
-
-        {/* =========================
-            MOBILE NAVIGATION
-        ========================== */}
 
         <div
           className={`overflow-hidden transition-all duration-300 lg:hidden ${
